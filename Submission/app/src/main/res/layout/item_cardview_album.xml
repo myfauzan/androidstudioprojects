@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/album_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_button"
+            android:layout_below="@+id/tv_item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@+id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:ellipsize="end"
+            android:maxLines="5"
+            tools:text="@string/detail_album"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@+id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/btn_set_favorite"
+                style="?android:attr/starStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+            <Button
+                android:id="@+id/action_share"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                app:icon="@drawable/ic_baseline_share_24"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                 />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

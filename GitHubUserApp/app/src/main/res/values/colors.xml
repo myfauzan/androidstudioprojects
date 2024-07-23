@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#FF98A8F8</color>
+    <color name="bluelight">#FFBCCEF8</color>
+    <color name="teallight">#FFCDFCF6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFAF7F0</color>
+
+
+    <color name="dark">#303030</color>
+    <color name="dark100">#202020</color>
+    <color name="teal">#03DAC5</color>
+
+    <color name="textPopupEditTextColor">#03DAC5</color>
+</resources>

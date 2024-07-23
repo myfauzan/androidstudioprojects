@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35202877161",
+    "project_id": "stop-kontak-ac398",
+    "storage_bucket": "stop-kontak-ac398.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35202877161:android:9ba54cad93fee44d83d278",
+        "android_client_info": {
+          "package_name": "com.myfauzan.stopkontak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35202877161-i7p7pkdq3a1ntsbbpfishqdlu84atlfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeeA10INugDukEArfxTi1FweiXtj3kK1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35202877161-i7p7pkdq3a1ntsbbpfishqdlu84atlfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

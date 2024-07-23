@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941038669932",
+    "project_id": "testesp8266-24866",
+    "storage_bucket": "testesp8266-24866.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941038669932:android:64835d7751a2951c1b0849",
+        "android_client_info": {
+          "package_name": "com.myfauzan.dht11esp8266firbasekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941038669932-um1o3rr2adu0qopf9um7hd57lspouib7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEiYZ20vLqZVyw6MFe9OB20kaLcUkLu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941038669932-um1o3rr2adu0qopf9um7hd57lspouib7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

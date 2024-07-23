@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_text_follower"
+        style="@style/text1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_text_following"
+        app:layout_constraintStart_toEndOf="@+id/tv_text_repository"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/follower" />
+
+    <TextView
+        android:id="@+id/tv_follower"
+        style="@style/text2"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_text_follower"
+        app:layout_constraintStart_toStartOf="@+id/tv_text_follower"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text_follower"
+        tools:text="@string/count_follower" />
+
+    <TextView
+        android:id="@+id/tv_text_following"
+        style="@style/text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/following" />
+
+    <TextView
+        android:id="@+id/tv_following"
+        style="@style/text2"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_text_following"
+        app:layout_constraintStart_toStartOf="@+id/tv_text_following"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text_following"
+        tools:text="@string/count_following" />
+
+    <TextView
+        android:id="@+id/tv_text_repository"
+        style="@style/text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/repository" />
+
+    <TextView
+        android:id="@+id/tv_repository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_text_repository"
+        app:layout_constraintStart_toStartOf="@+id/tv_text_repository"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text_repository"
+        tools:text="@string/count_repository" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

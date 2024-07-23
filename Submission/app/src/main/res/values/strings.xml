@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Submission</string>
+    <string name="album_name">Nama Album</string>
+    <string name="detail_album">Detail Album</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="profile_name">Muhammad Yazid Fauzan</string>
+    <string name="profile_email">muhammadyazidfauzan@gmail.com</string>
+    <string name="about_me">About Me</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitHubUserNavigationAPI</string>
+    <string name="splash_screen">This is Splash Screen</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="avatar">This is Avatar User</string>
+    <string name="search">Search</string>
+    <string name="send">Cari</string>
+</resources>
